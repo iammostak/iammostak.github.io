@@ -294,7 +294,7 @@
    align-items: center;
    justify-content: center;
    gap: 0.05em;
-   color: var(--secondary-b)
+   color: var(--secondary-b);
 }
 
 .ao {
@@ -323,6 +323,7 @@
    box-shadow: rgba(0, 135, 202, 0.15) 0px 8px 32px;
    text-align: left;
    box-sizing: border-box;
+   border: 1px solid var(--default-c);
 }
 
 .education>div:last-child>div:nth-child(2),
