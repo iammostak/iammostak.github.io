@@ -8,6 +8,7 @@
    position: sticky;
    top: 0;
    background-color: var(--default-a);
+   z-index: 7;
 }
 
 .logo {
@@ -281,6 +282,128 @@
    background-position: center center;
 }
 
+.education {
+   height: 100%;
+   letter-spacing: 0.05em;
+   color: var(--secondary-c);
+   padding-bottom: 100px;
+}
+
+.education>div:first-child {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0.05em;
+   color: var(--secondary-b)
+}
+
+.ao {
+   color: var(--primary);
+}
+
+.booksIcon {
+   font-size: 24px;
+   margin-left: 0.5%;
+}
+
+.education>div:first-child>h1 {
+   font-weight: 600;
+}
+
+.education>div:last-child {
+   padding: 5% 0;
+   display: grid;
+   gap: 7%;
+   background-color: var(--default);
+}
+
+.education>div:last-child>div {
+   width: 60%;
+   border-radius: 33px;
+   box-shadow: rgba(0, 135, 202, 0.15) 0px 8px 32px;
+   text-align: left;
+   box-sizing: border-box;
+}
+
+.education>div:last-child>div:nth-child(2),
+.education>div:last-child>div:nth-child(4) {
+   margin-left: 40%;
+}
+
+.institution {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 4%;
+   padding: 2%;
+   line-height: 0.5;
+   color: var(--secondary-c)
+}
+
+.institution:nth-of-type(1),
+.institution:nth-of-type(3) {
+   flex-direction: row-reverse;
+   justify-content: start;
+}
+
+.institution>div:first-child>h3 {
+   color: var(--primary);
+   font-weight: 600;
+}
+
+.instImgDiv {
+   width: 17%;
+}
+
+.institution:nth-of-type(1)>.instImgDiv {
+   width: 25%;
+}
+
+.institution:nth-of-type(1)>.instImgDiv>img {
+   border: 2px solid tomato;
+}
+
+.instImgDiv>img {
+   width: 100%;
+   border-radius: 50%;
+}
+
+.institution h3+div {
+   margin-bottom: 20px;
+   color: darkgray;
+}
+
+.skills {
+   height: 50%;
+   display: flex;
+   flex-flow: wrap;
+   font-size: 14px;
+   align-items: center;
+   justify-content: start;
+   gap: 7px;
+}
+
+.skills>div {
+   width: auto;
+   height: 26px;
+   padding: 0 2%;
+   display: flex;
+   gap: 4px;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid var(--default-c);
+   border-radius: 20px;
+}
+
+.skills>div:hover {
+   background-color: var(--default-b);
+   cursor: pointer;
+}
+
+.skills>div>img {
+   height: 14px;
+}
+
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
    .logo {
@@ -328,6 +451,33 @@
 
    .typing {
       font-size: 27px;
+   }
+
+   .education>div:last-child>div {
+      width: 76%;
+      border-radius: 24px;
+   }
+
+   .education>div:last-child>div:nth-child(2),
+   .education>div:last-child>div:nth-child(4) {
+      margin-left: 24%;
+   }
+
+   .institution>div:first-child>h3 {
+      font-size: 17px;
+   }
+
+   .institution h3+div {
+      font-size: 14px;
+   }
+
+   .skills {
+      font-size: 12px;
+      gap: 5px;
+   }
+
+   .skills>div {
+      height: 22px;
    }
 }
 
@@ -397,5 +547,50 @@
 
    .typing {
       font-size: 20px;
+   }
+
+   .education>div:last-child {
+      gap: 4%;
+   }
+
+   .education>div:last-child>div {
+      width: 100%;
+      border-radius: 17px;
+      gap: 2%;
+   }
+
+   .education>div:last-child>div:nth-child(2),
+   .education>div:last-child>div:nth-child(4) {
+      margin-left: 0;
+   }
+
+   .education .institution {
+      flex-flow: column-reverse;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 3%;
+      padding-bottom: 4%;
+   }
+
+   .institution>div:first-child>h3 {
+      font-size: 11px;
+   }
+
+   .institution h3+div {
+      font-size: 10px;
+      margin-bottom: 6px;
+   }
+
+   .institution:nth-of-type(1)>.instImgDiv {
+      width: 17%;
+   }
+
+   .skills {
+      font-size: 9px;
+      gap: 5px;
+   }
+
+   .skills>div {
+      height: 17px;
    }
 }

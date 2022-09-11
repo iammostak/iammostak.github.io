@@ -2,6 +2,7 @@ import light from '../styles/light.module.css';
 import dark from '../styles/dark.module.css';
 import avatar from '../assets/avatar.jpg';
 import { TypeAnimation } from "react-type-animation";
+import Education from './Education';
 
 function About({ theme }) {
 
@@ -29,21 +30,21 @@ function About({ theme }) {
                </div>
                <TypeAnimation
                   sequence={[
-                     '', 2000,
-                     'Coding is hard', 500,
-                     'Coding is', 500,
-                     'Coding is fun', 2000,
-                     'Coding is ', 500,
-                     'Coding is love', 2000,
-                     '', 1000,
-                     'So ', 500,
-                     'So, ', 1000,
-                     'So, I became a Coder. ', 2000,
-                     'So, ', 500,
-                     '', 1000,
-                     'And ', 1000,
-                     'And, ', 1000,
-                     'And, Coding became my life. ', 3000,
+                     '> ', 2000,
+                     '> Coding is hard', 500,
+                     '> Coding is', 500,
+                     '> Coding is fun', 2000,
+                     '> Coding is ', 500,
+                     '> Coding is love', 2000,
+                     '> ', 1000,
+                     '> So ', 500,
+                     '> So, ', 1000,
+                     '> So, I became a Coder. ', 2000,
+                     '> So, ', 500,
+                     '> ', 1000,
+                     '> And ', 1000,
+                     '> And, ', 1000,
+                     '> And, Coding became my life. ', 3000,
                      () => {
                         console.log('Done typing!');
                      }
@@ -55,6 +56,7 @@ function About({ theme }) {
                />
             </div>
          </div>
+         <Education theme={theme} />
       </div>
    );
 }
