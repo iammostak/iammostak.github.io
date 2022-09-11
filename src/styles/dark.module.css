@@ -1,0 +1,403 @@
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-sizing: border-box;
+   padding: 1.7% 4%;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   position: sticky;
+   top: 0;
+   background-color: var(--default-d-a);
+}
+
+.logo {
+   width: auto;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   font-size: 27px;
+   font-weight: 700;
+   letter-spacing: 0.03em;
+   cursor: pointer;
+   position: relative;
+}
+
+.logo a {
+   text-decoration: none;
+   color: var(--primary-d);
+}
+
+.navList {
+   width: 70%;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   gap: 3rem;
+   font-size: 17px;
+   font-weight: 600;
+   padding: 7px;
+}
+
+.navList a {
+   text-decoration: none;
+   color: var(--secondary-d-a);
+}
+
+.navList a:hover {
+   color: var(--primary-d);
+}
+
+.navList>div {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   position: relative;
+   letter-spacing: 0.05em;
+   cursor: pointer;
+}
+
+.navList>div:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2.4px;
+   bottom: 0;
+   left: 0;
+   background-color: var(--primary-d);
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+}
+
+.navList>div:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+}
+
+.modeBtn {
+   width: auto;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+
+.modeBtn>button {
+   background-color: transparent;
+   border: none;
+   font-size: 24px;
+   color: var(--secondary-d-a);
+   cursor: pointer;
+}
+
+.modeBtn>button:hover {
+   color: var(--primary-d);
+}
+
+.home {
+   display: flex;
+   align-items: center;
+   gap: 0.7%;
+   box-sizing: border-box;
+   padding: 2% 5%;
+   padding-top: 4%;
+   padding-bottom: 0;
+   text-align: left;
+   cursor: default;
+   color: var(--secondary-d-c);
+}
+
+.home>div:first-child {
+   width: 60%;
+   letter-spacing: 0.05em;
+}
+
+.homeDetails h1 {
+   font-weight: 600;
+   line-height: 1;
+   color: var(--secondary-d-b);
+}
+
+.homeDetails h1:last-of-type {
+   font-size: 46px;
+   color: var(--primary-d);
+}
+
+.home>div:last-child {
+   width: 40%;
+}
+
+.homeImg {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.homeIcons {
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 2%;
+   margin: 2%;
+   font-size: 27px;
+}
+
+.homeIcons>a {
+   text-decoration: none;
+   color: var(--secondary-d-a);
+   cursor: pointer;
+}
+
+.homeIcons>a:first-of-type:hover {
+   color: black;
+}
+
+.homeIcons>a:nth-child(2):hover {
+   color: #0072b1;
+}
+
+.homeIcons>a:nth-child(3):hover {
+   color: tomato;
+}
+
+.homeIcons>a:last-of-type:hover {
+   color: #229ED9;
+}
+
+.btnDiv a {
+   text-decoration: none;
+   color: var(--default-d-a);
+}
+
+.btnDiv button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2%;
+}
+
+.ri {
+   font-size: 20px;
+}
+
+.btn {
+   font-size: 16px;
+   font-weight: bold;
+   letter-spacing: 0.05em;
+   color: var(--default-d-a);
+   background-color: var(--primary-d);
+   border: 2px solid var(--primary-d);
+   padding: 1.7% 6%;
+   border-radius: 30px;
+}
+
+.btn:hover {
+   transition: all .75s ease;
+   cursor: pointer;
+   background-color: var(--primary-d-hover);
+   border-color: var(--primary-d-hover);
+   color: var(--default-d-a);
+}
+
+.outline {
+   background-color: transparent;
+   color: var(--primary-d);
+}
+
+.about {
+   padding: 7% 2%;
+   padding-bottom: 0;
+   color: var(--secondary-d-a);
+   height: 100vh;
+   cursor: default;
+}
+
+.aboutHeader {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1%;
+   letter-spacing: 0.05em;
+   margin-bottom: 1%;
+}
+
+.aboutHeader>h1 {
+   color: var(--secondary-d-b);
+   font-weight: 600;
+}
+
+.aboutHeader>h1:last-of-type {
+   color: var(--primary-d);
+}
+
+.aboutContent {
+   padding: 3%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: left;
+   font-size: 19px;
+   letter-spacing: 0.05em;
+   line-height: 1.7;
+}
+
+.aboutContent>div:first-child {
+   width: 25%;
+}
+
+.avatar {
+   width: 100%;
+   border-radius: 17px;
+   cursor: pointer;
+}
+
+.aboutContent>div:last-child {
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   position: relative;
+}
+
+.aboutContent>div:last-child>div {
+   z-index: 1;
+}
+
+.aboutContent span {
+   color: var(--primary-d);
+   font-weight: 600;
+}
+
+.typing {
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.bgi {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   background-image: url('../assets/blue.png');
+   background-repeat: no-repeat;
+   background-size: 70%;
+   background-position: center center;
+   filter: brightness(0);
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+   .logo {
+      font-size: 24px;
+   }
+
+   .navList {
+      font-size: 15px;
+      gap: 1.7rem;
+      width: 60%;
+   }
+
+   .modeBtn>button {
+      font-size: 20px;
+   }
+
+   .homeDetails h1 {
+      font-size: 24px;
+   }
+
+   .homeDetails h1:last-of-type {
+      font-size: 33px;
+   }
+
+   .homeDetails>div:nth-child(2) {
+      font-size: 14px;
+   }
+
+   .homeIcons {
+      font-size: 25px;
+   }
+
+   .btn {
+      font-size: 14px;
+   }
+
+   .aboutContent {
+      font-size: 16px;
+      gap: 2%;
+   }
+
+   .aboutContent>div:first-child {
+      width: 35%;
+   }
+
+   .typing {
+      font-size: 27px;
+   }
+}
+
+
+@media all and (min-width: 260px) and (max-width: 767px) {
+   .logo {
+      font-size: 20px;
+   }
+
+   .navList {
+      font-size: 12px;
+      gap: 3%;
+      display: none;
+   }
+
+   .home {
+      flex-direction: column-reverse;
+   }
+
+   .home>div:first-child {
+      width: 100%;
+   }
+
+   .home>div:last-child {
+      width: 100%;
+   }
+
+   .homeDetails h1 {
+      font-size: 18px;
+   }
+
+   .homeDetails h1:last-of-type {
+      font-size: 22px;
+   }
+
+   .homeDetails>div:nth-child(2) {
+      font-size: 12px;
+   }
+
+   .homeIcons {
+      font-size: 22px;
+   }
+
+   .ri {
+      font-size: 17px;
+   }
+
+   .btn {
+      font-size: 14px;
+   }
+
+   .aboutContent {
+      flex-direction: column;
+      font-size: 14px;
+      gap: 10px;
+   }
+
+   .aboutContent>div:first-child {
+      width: 40%;
+   }
+
+   .aboutContent>div:last-child {
+      width: 100%;
+      text-align: justify;
+      gap: 10px;
+   }
+
+   .typing {
+      font-size: 20px;
+   }
+}

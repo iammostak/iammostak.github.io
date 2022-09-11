@@ -1,0 +1,16 @@
+:root {
+   --primary: #0087ca;
+   --primary-hover: #005da5;
+   --secondary-a: rgb(69, 69, 69);
+   --secondary-b: rgb(47, 47, 47);
+   --secondary-c: rgb(27, 27, 27);
+   --default-a: white;
+   --default-b: whitesmoke;
+
+   --primary-d: wheat;
+   --primary-d-hover: rgb(247, 210, 143);
+   --secondary-d-a: whitesmoke;
+   --secondary-d-b: whitesmoke;
+   --secondary-d-c: lightgrey;
+   --default-d-a: #1f2327;
+}
