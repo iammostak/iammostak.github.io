@@ -12,12 +12,12 @@ function About({ theme }) {
 
    return (
       <div id='about' className={styles.about}>
-         <div className={styles.aboutHeader} data-aos='fade-down'>
+         <div className={styles.aboutHeader}>
             <h1>About</h1>
             <h1>Me</h1>
          </div>
          <div className={styles.aboutContent}>
-            <div data-aos='fade-right'>
+            <div>
                <img src={avatar} alt="avatar" className={styles.avatar} />
             </div>
             <div>

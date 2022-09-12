@@ -47,7 +47,7 @@ function Home({ theme }) {
                </a>
             </div>
          </div>
-         <div>
+         <div data-aos='zoom-in'>
             <img src={coder} alt="coder" className={styles.homeImg} />
          </div>
       </div>
