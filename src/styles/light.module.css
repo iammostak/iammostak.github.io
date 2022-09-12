@@ -445,7 +445,7 @@
    border: 1px solid rgb(0, 135, 202, 0.15);
    box-sizing: border-box;
    padding: 9% 0;
-   border-radius: 7%;
+   border-radius: 10px;
    cursor: pointer;
 }
 
@@ -671,6 +671,5 @@
 
    .skillsContainer>div {
       height: 50px;
-      border-radius: 11%;
    }
 }
