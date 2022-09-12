@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 function App() {
    const [theme, setTheme] = useState(true);
 
-   AOS.init({duration: 2000});
+   AOS.init({ duration: 2000 });
 
    useEffect(() => {
       theme ?
