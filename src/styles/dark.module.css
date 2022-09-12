@@ -321,7 +321,7 @@
 .education>div:last-child>div {
    width: 60%;
    border-radius: 33px;
-   box-shadow: rgba(245, 222, 179, 0.15) 0px 8px 32px;
+   box-shadow: rgba(245, 222, 179, 0.15) 0px 4px 16px;
    text-align: left;
    box-sizing: border-box;
    border: 1px solid var(--default-d-b);
