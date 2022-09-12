@@ -320,10 +320,10 @@
 .education>div:last-child>div {
    width: 60%;
    border-radius: 33px;
-   box-shadow: rgba(0, 135, 202, 0.15) 0px 4px 16px;
    text-align: left;
    box-sizing: border-box;
    border: 1px solid var(--default-c);
+   background-color: var(--default-b);
 }
 
 .education>div:last-child>div:nth-child(2),
@@ -371,7 +371,6 @@
 
 .institution h3+div {
    margin-bottom: 20px;
-   color: darkgray;
 }
 
 .skills {
@@ -393,11 +392,11 @@
    align-items: center;
    justify-content: space-between;
    border: 1px solid var(--default-c);
+   background-color: var(--default-a);
    border-radius: 20px;
 }
 
 .skills>div:hover {
-   background-color: var(--default-b);
    cursor: pointer;
 }
 
