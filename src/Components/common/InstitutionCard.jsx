@@ -7,7 +7,7 @@ function InstitutionCard({ theme, name, img, address, learn }) {
    theme ? (styles = light) : (styles = dark);
 
    return (
-      <div className={styles.institution}>
+      <div className={styles.institution} data-aos='slide-up'>
          <div>
             <h3>{name}</h3>
             <div>{address}</div>

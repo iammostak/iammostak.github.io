@@ -13,7 +13,7 @@ function Education({ theme }) {
 
    return (
       <div className={styles.education}>
-         <div>
+         <div data-aos='slide-up'>
             <h1>Educ</h1>
             <h1 className={styles.ao}>a</h1>
             <h1>ti</h1>

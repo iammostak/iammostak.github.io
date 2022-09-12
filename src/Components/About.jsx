@@ -12,17 +12,17 @@ function About({ theme }) {
 
    return (
       <div id='about' className={styles.about}>
-         <div className={styles.aboutHeader}>
+         <div className={styles.aboutHeader} data-aos='fade-down'>
             <h1>About</h1>
             <h1>Me</h1>
          </div>
          <div className={styles.aboutContent}>
-            <div>
+            <div data-aos='fade-right'>
                <img src={avatar} alt="avatar" className={styles.avatar} />
             </div>
             <div>
                <div className={styles.bgi}></div>
-               <div>
+               <div data-aos='zoom-in'>
                   Hi, My name is <span>Md Mostafijur Rahman</span> and I am from <span>Kaliachak, Malda, West Bengal (India)</span>.
                   I have completed my <span>Bachelor of Pharmacy</span> form <span>Rajiv Gandhi Proudyogiki Vishwavidyalaya,</span> Bhopal (MP).
                   Then I joined <span>Masai School</span> (A Military-type coding School), which offers a 30-week full-time course on the <span>Full Stack Web Development</span> program.

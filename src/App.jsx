@@ -3,9 +3,13 @@ import './App.css';
 import About from './Components/About';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
    const [theme, setTheme] = useState(true);
+
+   AOS.init({duration: 2000});
 
    useEffect(() => {
       theme ?

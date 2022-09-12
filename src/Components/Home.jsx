@@ -14,8 +14,8 @@ function Home({ theme }) {
       <div className={styles.home}>
          <div className={styles.homeDetails}>
             <div>
-               <h1>Hello! Myself</h1>
-               <h1>Md Mostafijur Rahman</h1>
+               <h1 data-aos='fade-down'>Hello! Myself</h1>
+               <h1 data-aos='fade-left'>Md Mostafijur Rahman</h1>
             </div>
             <div>
                An ambitious self-motivated, confident Full Stack developer with considerable technical skills,
