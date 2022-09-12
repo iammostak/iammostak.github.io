@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Skills from './Components/Skills';
 
 function App() {
    const [theme, setTheme] = useState(true);
@@ -22,6 +23,7 @@ function App() {
          <Navbar theme={theme} toggleTheme={() => setTheme(!theme)} />
          <Home theme={theme} />
          <About theme={theme} />
+         <Skills theme={theme} />
       </div>
    );
 }

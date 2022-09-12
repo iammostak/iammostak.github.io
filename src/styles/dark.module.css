@@ -288,7 +288,7 @@
    letter-spacing: 0.05em;
    color: var(--secondary-d-c);
    padding: 0 3%;
-   padding-bottom: 100px;
+   padding-bottom: 3%;
 }
 
 .education>div:first-child {
@@ -316,7 +316,7 @@
    padding: 5% 0;
    display: grid;
    gap: 7%;
-   background-color: var(--default-d);
+   background-color: var(--default);
 }
 
 .education>div:last-child>div {
@@ -406,6 +406,59 @@
    height: 14px;
 }
 
+.mySkills {
+   height: auto;
+   padding: 7% 5%;
+   letter-spacing: 0.05em;
+   cursor: default;
+}
+
+.mySkills>div:first-child {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--secondary-d-b);
+}
+
+.mySkills h1 {
+   font-weight: 600;
+}
+
+.mySkills h1>span {
+   color: var(--primary-d);
+}
+
+.mySkillsIcon {
+   font-size: 24px;
+   margin-left: 0.3em;
+}
+
+.skillsContainer {
+   height: 70%;
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   gap: 5.1%;
+   margin-top: 3%;
+}
+
+.skillsContainer>div {
+   height: 120px;
+   border: 1px solid rgba(245, 222, 179, 0.15);
+   box-sizing: border-box;
+   padding: 9% 0;
+   border-radius: 7%;
+   cursor: pointer;
+}
+
+.skillsContainer>div:hover {
+   border-color: rgba(245, 222, 179, 0.15);
+   box-shadow: rgba(245, 222, 179, 0.15) 0px 8px 24px;
+}
+
+.skillsContainer>div>img {
+   height: 100%;
+}
+
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
    .logo {
@@ -455,6 +508,10 @@
       font-size: 27px;
    }
 
+   .education {
+      padding-bottom: 10%;
+   }
+
    .education>div:last-child>div {
       width: 76%;
       border-radius: 24px;
@@ -466,7 +523,7 @@
    }
 
    .institution>div:first-child>h3 {
-      font-size: 17px;
+      font-size: 16px;
    }
 
    .institution h3+div {
@@ -480,6 +537,14 @@
 
    .skills>div {
       height: 22px;
+   }
+
+   .skillsContainer {
+      padding-bottom: 5%;
+   }
+
+   .skillsContainer>div {
+      height: 70px;
    }
 }
 
@@ -551,6 +616,10 @@
       font-size: 20px;
    }
 
+   .education {
+      padding-bottom: 17%;
+   }
+
    .education>div:last-child {
       gap: 4%;
    }
@@ -594,5 +663,14 @@
 
    .skills>div {
       height: 17px;
+   }
+
+   .skillsContainer {
+      gap: 2%;
+      padding-bottom: 11%;
+   }
+
+   .skillsContainer>div {
+      height: 40px;
    }
 }
