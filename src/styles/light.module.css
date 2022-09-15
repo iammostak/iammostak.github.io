@@ -4,11 +4,11 @@
    align-items: center;
    box-sizing: border-box;
    padding: 1.7% 4%;
-   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
    position: sticky;
    top: 0;
    background-color: var(--default-a);
    z-index: 7;
+   box-shadow: var(--shadow-dark);
 }
 
 .logo {
@@ -321,7 +321,7 @@
    border-radius: 33px;
    text-align: left;
    box-sizing: border-box;
-   border: 1px solid var(--default-c);
+   box-shadow: var(--shadow-dark);
    background-color: var(--default-b);
    margin-bottom: 7%;
 }
@@ -447,15 +447,16 @@
 
 .skillsContainer>div {
    height: 120px;
-   border: 1px solid var(--primary-shadow);
    box-sizing: border-box;
    padding: 9% 0;
    border-radius: 10px;
    cursor: pointer;
+   box-shadow: var(--shadow-dark);
 }
 
 .skillsContainer>div:hover {
-   box-shadow: var(--primary-shadow) 0px 8px 24px;
+   border: 1px solid var(--default-b);
+   box-shadow: none;
 }
 
 .skillsContainer>div>img {
@@ -499,17 +500,12 @@
    box-sizing: border-box;
    padding: 2%;
    border-radius: 17px;
-   border: 1px solid var(--default-c);
+   box-shadow: var(--shadow-dark);
    margin-bottom: 7%;
 }
 
 .projectCard:last-of-type {
    margin-bottom: 0;
-}
-
-.projectCard:hover {
-   border: 1px solid var(--background-color);
-   box-shadow: var(--background-color) 0px 8px 24px;
 }
 
 .projectCard>div {
@@ -582,6 +578,7 @@
    justify-content: center;
    gap: 4%;
    padding: 1%;
+   color: var(--secondary-a)
 }
 
 .projectCard a:hover {
