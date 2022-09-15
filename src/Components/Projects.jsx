@@ -29,7 +29,7 @@ function Projects({ theme }) {
                   <p>
                      It's an individual project.
                      This project is a front-end clone of Animoto, which is a cloud-based video creation service.
-                     Users can Sign up, log in, log out, surfing the attractive landing page in this project. 
+                     Users can Sign up, log in, log out, surfing the attractive landing page in this project.
                      It is built using React, CSS, and React Router only.
                   </p>
                   <div>

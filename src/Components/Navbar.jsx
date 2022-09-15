@@ -7,6 +7,12 @@ function Navbar({ theme, toggleTheme }) {
    let styles;
    theme ? (styles = light) : (styles = dark);
 
+   const handleClick = () => {
+      toggleTheme();
+      window.scrollBy(0, 1);
+      window.scrollBy(0, -1);
+   };
+
    return (
       <nav className={styles.navbar}>
          <div className={styles.logo}><a href="#">🙏Welcome!</a></div>
@@ -18,7 +24,7 @@ function Navbar({ theme, toggleTheme }) {
             <div><a href="#contact">Contact</a></div>
          </div>
          <div className={styles.modeBtn}>
-            <button onClick={toggleTheme}>
+            <button onClick={handleClick}>
                {theme ?
                   <RiMoonClearFill />
                   : <RiSunFill />
