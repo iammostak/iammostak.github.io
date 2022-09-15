@@ -39,7 +39,7 @@ function Home({ theme }) {
                </a>
             </div>
             <div className={styles.btnDiv}>
-               <a href="https://drive.google.com/file/d/1J8YAx2pIAiSxY2cuvH85J9Cl-loyzhdp/view?usp=sharing" target="_blank" download>
+               <a href="https://drive.google.com/file/d/1zjsN5OQ60PyCkqnJG3MfdVEzHq-vG3PZ/view?usp=sharing" target="_blank" download>
                   <button className={styles.btn}>
                      Resume
                      <BiLinkExternal className={styles.ri} />

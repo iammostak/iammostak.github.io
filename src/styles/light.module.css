@@ -230,6 +230,7 @@
 
 .aboutContent {
    padding: 3%;
+   padding-bottom: 0;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -287,7 +288,6 @@
    letter-spacing: 0.05em;
    color: var(--secondary-c);
    padding: 0 3%;
-   padding-bottom: 3%;
 }
 
 .education>div:first-child {
@@ -296,6 +296,7 @@
    justify-content: center;
    gap: 0.05em;
    color: var(--secondary-b);
+   padding: 3%;
 }
 
 .ao {
@@ -312,9 +313,6 @@
 }
 
 .education>div:last-child {
-   padding: 5% 0;
-   display: grid;
-   gap: 7%;
    background-color: var(--default);
 }
 
@@ -325,6 +323,11 @@
    box-sizing: border-box;
    border: 1px solid var(--default-c);
    background-color: var(--default-b);
+   margin-bottom: 7%;
+}
+
+.education>div:last-child>div:last-child {
+   margin-bottom: 0;
 }
 
 .education>div:last-child>div:nth-child(2),
@@ -410,13 +413,15 @@
    padding: 7% 5%;
    letter-spacing: 0.05em;
    cursor: default;
+   padding-bottom: 2%;
 }
 
 .mySkills>div:first-child {
    display: flex;
    align-items: center;
    justify-content: center;
-   color: var(--secondary-b)
+   color: var(--secondary-b);
+   margin-bottom: 3%;
 }
 
 .mySkills h1 {
@@ -442,7 +447,7 @@
 
 .skillsContainer>div {
    height: 120px;
-   border: 1px solid rgb(0, 135, 202, 0.15);
+   border: 1px solid var(--primary-shadow);
    box-sizing: border-box;
    padding: 9% 0;
    border-radius: 10px;
@@ -450,16 +455,149 @@
 }
 
 .skillsContainer>div:hover {
-   border-color: rgb(0, 135, 202, 0.15);
-   box-shadow: rgba(0, 135, 202, 0.15) 0px 8px 24px;
+   box-shadow: var(--primary-shadow) 0px 8px 24px;
 }
 
 .skillsContainer>div>img {
    height: 100%;
 }
 
+.projects {
+   padding: 7% 5%;
+   letter-spacing: 0.05em;
+   cursor: default;
+   color: var(--secondary-c);
+}
+
+.projects>div:first-child {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--secondary-b);
+   margin-bottom: 4%;
+
+}
+
+.projects>div:first-child>h1 {
+   font-weight: 600;
+}
+
+.projects>div:first-child>h1>span {
+   color: var(--primary);
+}
+
+.projectIcon {
+   font-size: 30px;
+   margin-left: 0.3em;
+}
+
+.projectCard {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 3%;
+   box-sizing: border-box;
+   padding: 2%;
+   border-radius: 17px;
+   border: 1px solid var(--default-c);
+   margin-bottom: 7%;
+}
+
+.projectCard:last-of-type {
+   margin-bottom: 0;
+}
+
+.projectCard:hover {
+   border: 1px solid var(--background-color);
+   box-shadow: var(--background-color) 0px 8px 24px;
+}
+
+.projectCard>div {
+   width: 50%;
+   text-align: left;
+}
+
+.projectCard>div>img {
+   width: 100%;
+   border-radius: 10px;
+   border: 1px solid var(--background-color);
+}
+
+.projectCard h1 {
+   font-weight: 600;
+   color: var(--primary);
+   line-height: 1;
+}
+
+.projectCard p+div {
+   margin-bottom: 2%;
+}
+
+.pia,
+.pib {
+   font-size: 30px;
+   margin-right: 2%;
+}
+
+.pia:first-of-type,
+.pib:nth-child(2) {
+   color: dodgerblue;
+}
+
+.pia:nth-child(2) {
+   font-size: 32px;
+   color: skyblue;
+}
+
+.pia:last-child {
+   font-size: 34px;
+   color: tomato;
+}
+
+.pib:first-of-type {
+   color: tomato;
+}
+
+.pib:last-child {
+   color: gold;
+}
+
+.projectCard p+div+div {
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 3%;
+}
+
+
+.projectCard a {
+   text-decoration: none;
+   color: var(--secondary-b);
+   width: 24%;
+   border-radius: 17px;
+   border: 1px solid var(--primary);
+   background-color: transparent;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 4%;
+   padding: 1%;
+}
+
+.projectCard a:hover {
+   cursor: pointer;
+   color: var(--default-a);
+   background-color: var(--primary);
+   box-shadow: var(--background-color) 0px 8px 24px;
+}
+
+.paa {
+   font-size: 20px;
+}
+
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
+
    .logo {
       font-size: 24px;
    }
@@ -497,6 +635,7 @@
    .aboutContent {
       font-size: 16px;
       gap: 2%;
+      line-height: 1.4;
    }
 
    .aboutContent>div:first-child {
@@ -505,10 +644,6 @@
 
    .typing {
       font-size: 27px;
-   }
-
-   .education {
-      padding-bottom: 10%;
    }
 
    .education>div:last-child>div {
@@ -538,17 +673,26 @@
       height: 22px;
    }
 
-   .skillsContainer {
-      padding-bottom: 5%;
-   }
-
    .skillsContainer>div {
       height: 70px;
+   }
+
+   .projectCard {
+      flex-direction: column;
+   }
+
+   .projectCard:nth-of-type(2) {
+      flex-direction: column-reverse;
+   }
+
+   .projectCard>div {
+      width: 100%;
    }
 }
 
 
 @media all and (min-width: 260px) and (max-width: 767px) {
+
    .logo {
       font-size: 20px;
    }
@@ -615,18 +759,9 @@
       font-size: 20px;
    }
 
-   .education {
-      padding-bottom: 14%;
-   }
-
-   .education>div:last-child {
-      gap: 4%;
-   }
-
    .education>div:last-child>div {
       width: 100%;
       border-radius: 17px;
-      gap: 2%;
    }
 
    .education>div:last-child>div:nth-child(2),
@@ -638,8 +773,6 @@
       flex-flow: column-reverse;
       align-items: flex-start;
       justify-content: center;
-      padding: 3%;
-      padding-bottom: 4%;
    }
 
    .institution>div:first-child>h3 {
@@ -648,7 +781,7 @@
 
    .institution h3+div {
       font-size: 10px;
-      margin-bottom: 6px;
+      margin-bottom: 4%;
    }
 
    .institution:nth-of-type(1)>.instImgDiv {
@@ -666,10 +799,36 @@
 
    .skillsContainer {
       grid-template-columns: repeat(3, 1fr);
-      padding-bottom: 50%;
+      padding-bottom: 36%;
    }
 
    .skillsContainer>div {
       height: 70px;
+   }
+
+   .projectCard {
+      flex-direction: column;
+   }
+
+   .projectCard:nth-of-type(2) {
+      flex-direction: column-reverse;
+   }
+
+   .projectCard h1 {
+      font-size: 17px;
+   }
+
+   .projectCard h1+p {
+      font-size: 14px;
+   }
+
+   .projectCard>div {
+      width: 100%;
+   }
+
+   .projectCard a {
+      width: 40%;
+      font-size: 14px;
+      margin-top: 2%;
    }
 }

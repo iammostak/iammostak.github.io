@@ -14,7 +14,7 @@ function Navbar({ theme, toggleTheme }) {
             <div><a href="#">Home</a></div>
             <div><a href="#about">About</a></div>
             <div><a href="#skills">Skills</a></div>
-            <div><a href="#project">Projects</a></div>
+            <div><a href="#projects">Projects</a></div>
             <div><a href="#contact">Contact</a></div>
          </div>
          <div className={styles.modeBtn}>

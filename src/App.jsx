@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Skills from './Components/Skills';
+import Projects from './Components/Projects';
 
 function App() {
    const [theme, setTheme] = useState(true);
@@ -24,6 +25,7 @@ function App() {
          <Home theme={theme} />
          <About theme={theme} />
          <Skills theme={theme} />
+         <Projects theme={theme} />
       </div>
    );
 }
