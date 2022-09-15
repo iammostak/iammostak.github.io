@@ -27,10 +27,10 @@ function Projects({ theme }) {
                <div>
                   <h1>Inspired by Animoto.com</h1>
                   <p>
-                     It's an individual project. This project is a frontend clone of Animoto,
-                     which is a cloud-based video creation services.
-                     Users can Sign up, login, logout, surfing the attractive landing page in this project.
-                     It is built using React, CSS and React Router only.
+                     It's an individual project.
+                     This project is a front-end clone of Animoto, which is a cloud-based video creation service.
+                     Users can Sign up, log in, log out, surfing the attractive landing page in this project. 
+                     It is built using React, CSS, and React Router only.
                   </p>
                   <div>
                      <FaCss3Alt className={styles.pia} />
@@ -51,8 +51,8 @@ function Projects({ theme }) {
                <div>
                   <h1>Inspired by HeadphoneZone.in</h1>
                   <p>
-                     This project is a clone of the India's finest online store for the world's best headphones.
-                     Users can log in or sign up, explore products, checkout and can do much more in this project.
+                     This project is a clone of India's finest online store for the world's best headphones.
+                     Users can Sign up, log in, explore products, checkout, and do much more in this project.
                      It is built using pure HTML, CSS & JavaScript only.
                   </p>
                   <div>
@@ -80,9 +80,10 @@ function Projects({ theme }) {
                <div>
                   <h1>Inspired by LYST.com</h1>
                   <p>
-                     Shop and discover the world’s most stylish brands, curated for you.
-                     With more than 17,000 brands and stores in one place,
                      Lyst is the definitive fashion destination.
+                     This project is a clone of the world's finest online clothing and fashion accessories stores.
+                     Users can Sign up, log in, explore products, checkout, and can do much more in this project.
+                     It is built using pure HTML, CSS & JavaScript only.
                   </p>
                   <div>
                      <FaHtml5 className={styles.pib} />
