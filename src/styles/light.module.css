@@ -413,7 +413,7 @@
    padding: 7% 5%;
    letter-spacing: 0.05em;
    cursor: default;
-   padding-bottom: 2%;
+   padding-bottom: 0;
 }
 
 .mySkills>div:first-child {
@@ -438,11 +438,13 @@
 }
 
 .skillsContainer {
-   height: 70%;
    display: grid;
    grid-template-columns: repeat(6, 1fr);
    gap: 5.1%;
    margin-top: 3%;
+   padding: 7% 3%;
+   padding-bottom: 10%;
+   background-color: var(--background-color);
 }
 
 .skillsContainer>div {
@@ -452,6 +454,7 @@
    border-radius: 10px;
    cursor: pointer;
    box-shadow: var(--shadow-dark);
+   background-color: var(--default-a);
 }
 
 .skillsContainer>div:hover {
@@ -468,6 +471,7 @@
    letter-spacing: 0.05em;
    cursor: default;
    color: var(--secondary-c);
+   padding-bottom: 0;
 }
 
 .projects>div:first-child {
@@ -475,7 +479,7 @@
    align-items: center;
    justify-content: center;
    color: var(--secondary-b);
-   margin-bottom: 4%;
+   margin-bottom: 3%;
 
 }
 
@@ -504,6 +508,10 @@
    margin-bottom: 7%;
 }
 
+.projectCard:hover {
+   background-color: var(--background-color);
+}
+
 .projectCard:last-of-type {
    margin-bottom: 0;
 }
@@ -516,7 +524,7 @@
 .projectCard>div>img {
    width: 100%;
    border-radius: 10px;
-   border: 1px solid var(--background-color);
+   box-shadow: var(--shadow-dark);
 }
 
 .projectCard h1 {
@@ -585,11 +593,60 @@
    cursor: pointer;
    color: var(--default-a);
    background-color: var(--primary);
-   box-shadow: var(--background-color) 0px 8px 24px;
 }
 
 .paa {
    font-size: 20px;
+}
+
+.myStatus {
+   padding: 7% 5%;
+   letter-spacing: 0.05em;
+   cursor: default;
+   color: var(--secondary-c);
+}
+
+.myStatus>div:first-child {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--secondary-b);
+   margin-bottom: 3%;
+
+}
+
+.myStatus>div:first-child>h1 {
+   font-weight: 600;
+}
+
+.myStatus>div:first-child>h1>span {
+   color: var(--primary);
+}
+
+.myStatusIcon {
+   font-size: 25px;
+   margin-left: 0.3em;
+}
+
+.myStatus>div:last-child {
+   padding: 7% 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   background-color: var(--background-color);
+}
+
+.myStatus>div:last-child>div {
+   height: 195px;
+   width: 43%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   box-shadow: var(--shadow-dark);
+   cursor: pointer;
+   background-color: var(--default-a);
 }
 
 
@@ -684,6 +741,18 @@
 
    .projectCard>div {
       width: 100%;
+   }
+
+   .myStatus>div:last-child {
+      flex-direction: column;
+   }
+
+   .myStatus>div:last-child>div {
+      width: 80%;
+   }
+
+   .myStatus>div:last-child>div:first-child {
+      margin-bottom: 7%;
    }
 }
 
@@ -796,7 +865,7 @@
 
    .skillsContainer {
       grid-template-columns: repeat(3, 1fr);
-      padding-bottom: 36%;
+      padding-bottom: 45%;
    }
 
    .skillsContainer>div {
@@ -827,5 +896,22 @@
       width: 40%;
       font-size: 14px;
       margin-top: 2%;
+   }
+
+   .myStatus>div:last-child {
+      flex-direction: column;
+   }
+
+   .myStatus>div:last-child>div {
+      width: 95%;
+      height: 100%;
+   }
+
+   .myStatus>div:last-child>div>img {
+      width: 100%;
+   }
+
+   .myStatus>div:last-child>div:first-child {
+      margin-bottom: 7%;
    }
 }

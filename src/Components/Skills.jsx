@@ -10,7 +10,7 @@ function Skills({ theme }) {
    return (
       <div id='skills' className={styles.mySkills}>
          <div data-aos='slide-up'>
-            <h1>Ski<span>ll</span>s</h1>
+            <h1>Tech <span>Stack</span> & tools</h1>
             <FaCodeBranch className={styles.mySkillsIcon} />
          </div>
          <div className={styles.skillsContainer}>

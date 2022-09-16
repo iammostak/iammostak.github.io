@@ -16,7 +16,7 @@ function Projects({ theme }) {
    return (
       <div id='projects' className={styles.projects}>
          <div data-aos='slide-up'>
-            <h1>Pr<span>o</span>j<span>e</span>cts</h1>
+            <h1>Project <span>works</span></h1>
             <MdOutlineWeb className={styles.projectIcon} />
          </div>
          <div>
