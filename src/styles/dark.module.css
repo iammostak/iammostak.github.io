@@ -866,7 +866,7 @@
 
    .skillsContainer {
       grid-template-columns: repeat(3, 1fr);
-      padding-bottom: 45%;
+      padding-bottom: 40%;
    }
 
    .skillsContainer>div {
