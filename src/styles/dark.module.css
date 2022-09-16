@@ -866,7 +866,7 @@
 
    .skillsContainer {
       grid-template-columns: repeat(3, 1fr);
-      padding-bottom: 40%;
+      padding-bottom: 38%;
    }
 
    .skillsContainer>div {
@@ -874,6 +874,7 @@
    }
 
    .projectCard {
+      padding: 4%;
       flex-direction: column;
    }
 
