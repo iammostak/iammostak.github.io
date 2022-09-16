@@ -137,7 +137,7 @@
    align-items: center;
    justify-content: start;
    gap: 2%;
-   margin: 2%;
+   margin: 2% 1.8%;
    font-size: 27px;
 }
 
@@ -818,7 +818,7 @@
 
    .aboutContent>div:last-child {
       width: 100%;
-      text-align: justify;
+      text-align: center;
       gap: 10px;
    }
 
