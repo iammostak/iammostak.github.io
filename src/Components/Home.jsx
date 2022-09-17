@@ -1,6 +1,5 @@
 import light from '../styles/light.module.css';
 import dark from '../styles/dark.module.css';
-import coder from '../assets/coder.gif';
 import { BiLinkExternal } from 'react-icons/bi';
 import { FaGithub, FaLinkedinIn, FaTelegram } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
@@ -48,7 +47,7 @@ function Home({ theme }) {
             </div>
          </div>
          <div data-aos='zoom-in'>
-            <img src={coder} alt="coder" className={styles.homeImg} />
+            <img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/coder.gif" alt="coder" className={styles.homeImg} />
          </div>
       </div>
    );

@@ -1,6 +1,5 @@
 import light from '../styles/light.module.css';
 import dark from '../styles/dark.module.css';
-import avatar from '../assets/avatar.jpg';
 import { TypeAnimation } from "react-type-animation";
 import Education from './Education';
 
@@ -18,7 +17,7 @@ function About({ theme }) {
          </div>
          <div className={styles.aboutContent}>
             <div>
-               <img src={avatar} alt="avatar" className={styles.avatar} />
+               <img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/avatar.jpg" alt="avatar" className={styles.avatar} />
             </div>
             <div>
                <div className={styles.bgi}></div>
