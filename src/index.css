@@ -1,6 +1,6 @@
 :root {
-   --primary: #0087ca;
-   --primary-hover: #005da5;
+   --primary: rgb(0, 135, 202);
+   --primary-hover: rgb(0, 93, 165);
    --primary-shadow: rgba(0, 135, 202, 0.15);
    --secondary-a: rgb(69, 69, 69);
    --secondary-b: rgb(47, 47, 47);
@@ -10,6 +10,7 @@
    --default-c: lightgrey;
    --background-color: rgba(0, 135, 202, 0.05);
    --shadow-dark: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+   --avatar-background: rgba(0, 135, 202, 0.05);
 
    --primary-d: wheat;
    --primary-d-hover: rgb(247, 210, 143);
@@ -22,4 +23,5 @@
    --default-d-c: rgb(51, 55, 59);
    --background-d-color: rgba(247, 211, 143, 0.05);
    --shadow-light: rgba(255, 255, 255, 0.1) 0px 1px 3px 0px, rgba(255, 255, 255, 0.06) 0px 1px 2px 0px;
+   --avatar-d-background: wheat;
 }

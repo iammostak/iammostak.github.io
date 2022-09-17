@@ -17,7 +17,7 @@ function About({ theme }) {
          </div>
          <div className={styles.aboutContent}>
             <div>
-               <img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/avatar.jpg" alt="avatar" className={styles.avatar} />
+               <img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/profile.png" alt="avatar" className={styles.avatar} />
             </div>
             <div>
                <div className={styles.bgi}></div>

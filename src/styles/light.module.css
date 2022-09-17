@@ -248,6 +248,7 @@
    width: 100%;
    border-radius: 17px;
    cursor: pointer;
+   background-color: var(--avatar-background);
 }
 
 .aboutContent>div:last-child {
