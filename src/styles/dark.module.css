@@ -475,8 +475,43 @@
    height: 100%;
 }
 
-.skillsContainer+div>h1 {
+.skillsContainer+div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    color: var(--secondary-d-b);
+   margin-bottom: 3%;
+}
+
+.giSkills {
+   font-size: 22px;
+   margin-left: 0.3em;
+}
+
+.softSkills {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.softSkills>button {
+   height: 36px;
+   font-size: 16px;
+   padding: 0 2%;
+   color: var(--default-d-a);
+   background-color: var(--primary-d);
+   border: none;
+   margin: 4px;
+   letter-spacing: 0.05em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0.5em;
+}
+
+.softSkills>.black {
+   background-color: var(--secondary-d-c);
 }
 
 .projects {
@@ -1083,6 +1118,10 @@
       height: 17px;
    }
 
+   .mySkills h1 {
+      font-size: 30px;
+   }
+
    .skillsContainer {
       grid-template-columns: repeat(3, 1fr);
       padding-bottom: 64%;
@@ -1090,6 +1129,11 @@
 
    .skillsContainer>div {
       height: 70px;
+   }
+
+   .softSkills>button {
+      font-size: 10px;
+      height: 24px;
    }
 
    .projectCard {
