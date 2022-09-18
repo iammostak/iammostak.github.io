@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import GitHubStatus from './Components/GithubStatus';
+import Contact from './Components/Contact';
 
 function App() {
    const [theme, setTheme] = useState(true);
@@ -28,6 +29,7 @@ function App() {
          <Skills theme={theme} />
          <Projects theme={theme} />
          <GitHubStatus theme={theme} />
+         <Contact theme={theme} />
       </div>
    );
 }

@@ -27,12 +27,22 @@ function Skills({ theme }) {
             <div data-aos='zoom-in' data-aos-duration='1000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/node.png" alt="node" /></div>
             <div data-aos='zoom-in' data-aos-duration='2000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/netlify.png" alt="netlify" /></div>
             <div data-aos='zoom-in' data-aos-duration='3000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/chakra-iii.png" alt="chakra" style={{ borderRadius: '50%' }} /></div>
-            <div data-aos='zoom-in' data-aos-duration='2000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/vercel-ii.png" alt="vercel" /></div>
             <div data-aos='zoom-in' data-aos-duration='1000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/mongoose-ii.png" alt="mongoose" /></div>
-            <div data-aos='zoom-in' data-aos-duration='2000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/router-ii.png" alt="router" /></div>
-            <div data-aos='zoom-in' data-aos-duration='3000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/heroku-iii.png" alt="heroku" /></div>
-            <div data-aos='zoom-in' data-aos-duration='2000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/postman.png" alt="postman" /></div>
+            <div data-aos='zoom-in' data-aos-duration='2000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/babel.png" alt="babel" style={{width: '80%', height: 'auto'}} /></div>
+            <div data-aos='zoom-in' data-aos-duration='1000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/router-ii.png" alt="router" /></div>
+            <div data-aos='zoom-in' data-aos-duration='3000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/cypress-ii.png" alt="cypress" /></div>
+            <div data-aos='zoom-in' data-aos-duration='1000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/postman.png" alt="postman" /></div>
+            <div data-aos='zoom-in' data-aos-duration='2000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/python.png" alt="python" /></div>
+            <div data-aos='zoom-in' data-aos-duration='1000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/vercel-ii.png" alt="vercel" /></div>
+            <div data-aos='zoom-in' data-aos-duration='2000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/vite.png" alt="vite" /></div>
+            <div data-aos='zoom-in' data-aos-duration='3000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/express-ii.png" alt="express" /></div>
+            <div data-aos='zoom-in' data-aos-duration='2000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/heroku-iii.png" alt="heroku" /></div>
+            <div data-aos='zoom-in' data-aos-duration='1000'><img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/typescript.png" alt="typescript" /></div>
          </div>
+         <div data-aos='slide-up'>
+            <h1>Ski<span>ll</span>s</h1>
+         </div>
+         <div></div>
       </div>
    );
 }
