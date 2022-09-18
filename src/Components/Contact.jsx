@@ -1,18 +1,18 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import light from '../styles/light.module.css';
 import dark from '../styles/dark.module.css';
-import { GrContact } from 'react-icons/gr';
-import { MdEmail, MdLocationOn, MdPhoneInTalk } from 'react-icons/md';
+import { MdContactPhone, MdEmail, MdLocationOn, MdPhoneInTalk } from 'react-icons/md';
 import { FaDiscord, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { HiCheckCircle } from 'react-icons/hi';
 
 
 function Contact({ theme }) {
+   const form = useRef();
+   const [alert, setAlert] = useState(false);
 
    let styles;
    theme ? (styles = light) : (styles = dark);
-
-   const form = useRef();
 
    const sendEmail = (e) => {
       e.preventDefault();
@@ -23,13 +23,20 @@ function Contact({ theme }) {
          }, (error) => {
             console.log(error.text);
          });
+
+      form.current.reset();
+
+      setAlert(true);
+      setTimeout(() => {
+         setAlert(false);
+      }, 3000);
    };
 
    return (
       <div id="contact" className={styles.contact}>
          <div data-aos='slide-up'>
             <h1>Get in <span>Touch</span></h1>
-            <GrContact className={styles.contactIcon} />
+            <MdContactPhone className={styles.contactIcon} />
          </div>
          <div className={styles.contactForm}>
             <div>
@@ -60,15 +67,22 @@ function Contact({ theme }) {
             <div data-aos='zoom-in'>
                <form ref={form} onSubmit={sendEmail}>
                   <label>Your Name</label>
-                  <input type="text" name="user_name" placeholder="😎" />
+                  <input type="text" name="user_name" placeholder="😎" required/>
                   <label>E-mail</label>
-                  <input type="email" name="user_email" placeholder="📧" />
+                  <input type="email" name="user_email" placeholder="📧" required/>
                   <label>Message</label>
-                  <textarea name="message" placeholder="📝" />
+                  <textarea name="message" placeholder="📝" required/>
                   <input type="submit" value="Send" />
                </form>
             </div>
          </div>
+         {
+            alert &&
+            <div className={styles.successAlert}>
+               <HiCheckCircle className={styles.successIcon} />
+               message sent successfully
+            </div>
+         }
       </div>
    );
 }
