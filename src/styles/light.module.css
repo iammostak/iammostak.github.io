@@ -510,10 +510,6 @@
    gap: 0.5em;
 }
 
-.softSkills>.black {
-   background-color: var(--secondary-c);
-}
-
 .projects {
    padding: 7% 5%;
    letter-spacing: 0.05em;

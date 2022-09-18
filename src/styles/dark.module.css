@@ -499,8 +499,8 @@
    height: 36px;
    font-size: 16px;
    padding: 0 2%;
-   color: var(--default-d-a);
-   background-color: var(--primary-d);
+   color: var(--default-a);
+   background-color: var(--primary);
    border: none;
    margin: 4px;
    letter-spacing: 0.05em;
@@ -508,10 +508,6 @@
    align-items: center;
    justify-content: center;
    gap: 0.5em;
-}
-
-.softSkills>.black {
-   background-color: var(--secondary-d-c);
 }
 
 .projects {

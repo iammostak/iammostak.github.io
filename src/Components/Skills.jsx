@@ -56,7 +56,7 @@ function Skills({ theme }) {
             <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'green'}}>
                Problem-Solving
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.black}>
+            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'black'}}>
                <RiOrganizationChart />
                DSA
             </button>
@@ -105,7 +105,7 @@ function Skills({ theme }) {
                <IoLogoJavascript />
                JavaScript
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000'>
+            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'black'}}>
                BackEnd Development
             </button>
             <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'tomato'}}>
@@ -115,7 +115,7 @@ function Skills({ theme }) {
             <button data-aos='zoom-in' data-aos-duration='1000'>
                Data Structure & Algorithm
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'skyblue'}}>
+            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'teal'}}>
                <SiReact />
                React
             </button>
@@ -135,7 +135,7 @@ function Skills({ theme }) {
                <FaUserShield />
                Positive Mindset
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.black}>
+            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'black'}}>
                <SiExpress />
                Express
             </button>
@@ -155,7 +155,7 @@ function Skills({ theme }) {
                <SiPostman />
                Postman
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.black}>
+            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'black'}}>
                <BiGitMerge />
                Git
             </button>
@@ -167,7 +167,7 @@ function Skills({ theme }) {
                <SiNetlify />
                Netlify
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.black}>
+            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'black'}}>
                <SiCypress />
                Cypress
             </button>
@@ -183,7 +183,7 @@ function Skills({ theme }) {
                <FaBootstrap />
                Bootstrap
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.black}>
+            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'black'}}>
                <SiVercel />
                Vercel
             </button>
