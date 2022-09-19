@@ -500,7 +500,6 @@
    font-size: 16px;
    padding: 0 2%;
    color: var(--default-a);
-   background-color: var(--primary);
    border: none;
    margin: 4px;
    letter-spacing: 0.05em;
@@ -508,6 +507,47 @@
    align-items: center;
    justify-content: center;
    gap: 0.5em;
+}
+
+.green {
+   background-color: green;
+}
+
+.black {
+   background-color: black;
+}
+
+.tomato {
+   background-color: tomato;
+}
+
+.softSkills>.yellow {
+   background-color: rgb(247, 223, 29);
+   color: black;
+}
+
+.lightblue {
+   background-color: rgb(0, 122, 205);
+}
+
+.darkred {
+   background-color: rgb(198, 61, 19);
+}
+
+.teal {
+   background-color: teal;
+}
+
+.lightgreen {
+   background-color: rgb(140, 200, 76);
+}
+
+.purple {
+   background-color: purple;
+}
+
+.orange {
+   background-color: orangered;
 }
 
 .projects {

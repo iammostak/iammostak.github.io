@@ -53,170 +53,170 @@ function Skills({ theme }) {
             <GiSkills className={styles.giSkills} />
          </div>
          <div className={styles.softSkills}>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'green'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.green}>
                Problem-Solving
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'black'}}>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.black}>
                <RiOrganizationChart />
                DSA
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000'>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.green}>
                <HiUserGroup />
                Teamwork
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'tomato'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.tomato}>
                <FaHtml5 />
                HTML
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000'>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.green}>
                <RiUserReceivedFill />
                Adaptability
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'green'}}>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.green}>
                <FaAssistiveListeningSystems />
                Active Listening
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000'>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.green}>
                Patience
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000'>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.green}>
                Decision Making
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'green'}}>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.green}>
                <FaUserTie />
                Interpersonal Skills
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000'>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.green}>
                <FaUserPlus />
                Hard Working
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'green'}}>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.green}>
                <RiUserVoiceFill />
                Communication Skills
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'dodgerblue'}}>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.lightblue}>
                <FaCss3Alt />
                CSS
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000'>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.black}>
                FrontEnd Development
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'gold'}}>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.yellow}>
                <IoLogoJavascript />
                JavaScript
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'black'}}>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.black}>
                BackEnd Development
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'tomato'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.tomato}>
                <SiNpm />
                Npm
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000'>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.black}>
                Data Structure & Algorithm
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'teal'}}>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.teal}>
                <SiReact />
                React
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000'>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.green}>
                <RiFolderUserFill />
                Organization
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'purple'}}>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.purple}>
                <SiRedux />
                Redux
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000'>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.black}>
                <FaUserCog />
                Tools Handling
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'green'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.green}>
                <FaUserShield />
                Positive Mindset
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'black'}}>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.black}>
                <SiExpress />
                Express
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'limegreen'}}>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.lightgreen}>
                <FaNodeJs />
                NodeJS
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'royalblue'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.lightblue}>
                <SiTypescript />
                TypeScript
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'limegreen'}}>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.lightgreen}>
                <SiMongodb />
                MongoDB
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'orangered'}}>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.orange}>
                <SiPostman />
                Postman
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'black'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.black}>
                <BiGitMerge />
                Git
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'dodgerblue'}}>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.lightblue}>
                <FaPython />
                Python
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'teal'}}>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.teal}>
                <SiNetlify />
                Netlify
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'black'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.black}>
                <SiCypress />
                Cypress
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'purple'}}>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.purple}>
                <SiHeroku />
                Heroku
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'teal'}}>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.teal}>
                <SiChakraui />
                Chakra UI
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'purple'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.purple}>
                <FaBootstrap />
                Bootstrap
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'black'}}>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.black}>
                <SiVercel />
                Vercel
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'red'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.darkred}>
                <SiJest />
                Jest
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000' style={{backgroundColor: 'gold'}}>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.yellow}>
                <SiBabel />
                Babel
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'red'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.darkred}>
                Mongoose
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000'>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.purple}>
                Redux thunk
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'tomato'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.orange}>
                <SiReactrouter />
                React Router
             </button>
-            <button data-aos='zoom-in' data-aos-duration='3000'>
+            <button data-aos='zoom-in' data-aos-duration='3000' className={styles.lightblue}>
                Zoom
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000' style={{backgroundColor: 'dodgerblue'}}>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.lightblue}>
                <SiVite />
                Vite
             </button>
-            <button data-aos='zoom-in' data-aos-duration='1000' style={{backgroundColor: 'tomato'}}>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.orange}>
                <SiFigma />
                Figma
             </button>
-            <button data-aos='zoom-in' data-aos-duration='2000'>
+            <button data-aos='zoom-in' data-aos-duration='2000' className={styles.lightblue}>
                <AiTwotoneThunderbolt />
                Thunder Client
             </button>
