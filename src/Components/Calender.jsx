@@ -7,7 +7,7 @@ function Calender({ theme }) {
    theme ? (styles = light) : (styles = dark);
 
    return (
-      <div className={styles.calender}>
+      <div data-aos='zoom-in' className={styles.calender}>
          {
             theme ?
                <img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/contributions-light.png" alt="light" />
