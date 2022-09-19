@@ -733,6 +733,16 @@
    background-color: var(--default-d-a);
 }
 
+.calender {
+   padding: 7% 5%;
+   cursor: default;
+   padding-bottom: 0;
+}
+
+.calender>img{
+   width: 100%;
+}
+
 .contact {
    height: 650px;
    padding: 7% 5%;
