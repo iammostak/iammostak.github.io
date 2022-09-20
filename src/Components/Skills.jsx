@@ -1,14 +1,14 @@
 import light from '../styles/light.module.css';
 import dark from '../styles/dark.module.css';
-import { FaAssistiveListeningSystems, FaBootstrap, FaCodeBranch, FaCss3Alt, FaHtml5, FaNodeJs, FaPython, FaUserCog, FaUserPlus, FaUserShield, FaUserTie } from 'react-icons/fa';
+import { FaAssistiveListeningSystems, FaBootstrap, FaCodeBranch, FaCss3Alt, FaHtml5, FaMarkdown, FaNodeJs, FaPython, FaUserCog, FaUserPlus, FaUserShield, FaUserTie } from 'react-icons/fa';
 import { GiSkills } from 'react-icons/gi';
 import { HiUserGroup } from 'react-icons/hi';
-import { MdSpeakerNotes } from 'react-icons/md';
-import { RiFolderUserFill, RiOrganizationChart, RiReactjsFill, RiUserReceivedFill, RiUserSettingsFill, RiUserVoiceFill } from 'react-icons/ri';
+import { BsFillCameraVideoFill } from 'react-icons/bs';
+import { RiFolderUserFill, RiOrganizationChart, RiUserReceivedFill, RiUserVoiceFill } from 'react-icons/ri';
 import { IoLogoJavascript } from 'react-icons/io';
 import { SiBabel, SiChakraui, SiCypress, SiExpress, SiFigma, SiHeroku, SiJest, SiMongodb, SiNetlify, SiNpm, SiPostman, SiReact, SiReactrouter, SiRedux, SiTypescript, SiVercel, SiVite } from 'react-icons/si';
 import { BiGitMerge } from 'react-icons/bi';
-import {AiTwotoneThunderbolt} from 'react-icons/ai';
+import { AiTwotoneThunderbolt } from 'react-icons/ai';
 
 
 function Skills({ theme }) {
@@ -205,7 +205,12 @@ function Skills({ theme }) {
                <SiReactrouter />
                React Router
             </button>
+            <button data-aos='zoom-in' data-aos-duration='1000' className={styles.black}>
+               <FaMarkdown />
+               Markdown
+            </button>
             <button data-aos='zoom-in' data-aos-duration='3000' className={styles.lightblue}>
+               <BsFillCameraVideoFill />
                Zoom
             </button>
             <button data-aos='zoom-in' data-aos-duration='2000' className={styles.lightblue}>
