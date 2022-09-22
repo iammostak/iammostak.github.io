@@ -733,14 +733,31 @@
    background-color: var(--default-a);
 }
 
-.calender {
+.calendar {
    padding: 7% 5%;
    cursor: default;
    padding-bottom: 0;
 }
 
-.calender>img{
-   width: 100%;
+.calendar>div:first-child {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--secondary-b);
+   margin-bottom: 3%;
+}
+
+.calendar>div:first-child>h1 {
+   font-weight: 600;
+}
+
+.calendar>div:first-child>h1>span {
+   color: var(--primary);
+}
+
+.calendarIcon {
+   font-size: 27px;
+   margin-left: 0.3em;
 }
 
 .contact {
@@ -1224,6 +1241,14 @@
 
    .myStatus>div:last-child>div:first-child {
       margin-bottom: 7%;
+   }
+
+   .calendar>div:first-child>h1 {
+      font-size: 26px;
+   }
+
+   .calendarIcon {
+      font-size: 21px;
    }
 
    .contact {

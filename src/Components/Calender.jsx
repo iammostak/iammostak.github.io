@@ -1,5 +1,7 @@
 import light from '../styles/light.module.css';
 import dark from '../styles/dark.module.css';
+import GitHubCalendar from 'react-github-calendar';
+import { IoCalendar } from 'react-icons/io5';
 
 function Calender({ theme }) {
 
@@ -7,12 +9,27 @@ function Calender({ theme }) {
    theme ? (styles = light) : (styles = dark);
 
    return (
-      <div data-aos='zoom-in' className={styles.calender}>
-         {
-            theme ?
-               <img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/contributions-light.png" alt="light" />
-               : <img src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/contributions-dark.png" alt="light" />
-         }
+      <div className={styles.calendar}>
+         <div data-aos='slide-up'>
+            <h1>Contribution <span>Calendar</span></h1>
+            <IoCalendar className={styles.calendarIcon} />
+         </div>
+         <div data-aos='zoom-in'>
+            {theme ?
+               <GitHubCalendar
+                  username="iammostak"
+                  blockSize={20}
+                  blockMargin={7}
+                  style={{ margin: "auto", alignItems: "center", width: "100%" }}
+               />
+               : <GitHubCalendar
+                  username="iammostak"
+                  blockSize={20}
+                  blockMargin={7}
+                  style={{ margin: "auto", alignItems: "center", width: "100%", backgroundColor: '#1f2327', color: 'whitesmoke' }}
+               />
+            }
+         </div>
       </div>
    );
 }
