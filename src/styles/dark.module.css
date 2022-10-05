@@ -1067,7 +1067,8 @@
       flex-direction: column;
    }
 
-   .projectCard:nth-of-type(2) {
+   .projectCard:nth-of-type(2),
+   .projectCard:nth-of-type(4) {
       flex-direction: column-reverse;
    }
 
@@ -1233,7 +1234,8 @@
       flex-direction: column;
    }
 
-   .projectCard:nth-of-type(2) {
+   .projectCard:nth-of-type(2),
+   .projectCard:nth-of-type(4) {
       flex-direction: column-reverse;
    }
 
