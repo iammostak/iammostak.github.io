@@ -785,6 +785,11 @@
    margin-left: 0.3em;
 }
 
+.calendarContainer {
+   padding: 7% 4%;
+   background: var(--background-d-color);
+}
+
 .contact {
    height: 650px;
    padding: 7% 5%;
