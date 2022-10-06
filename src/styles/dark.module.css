@@ -540,7 +540,7 @@
 }
 
 .lightgreen {
-   background-color: rgb(140, 200, 76);
+   background-color: rgb(124, 207, 0);
 }
 
 .purple {
@@ -590,6 +590,7 @@
    border-radius: 17px;
    box-shadow: var(--shadow-light);
    margin-bottom: 5%;
+   background-color: var(--default-d-b);
 }
 
 .projectCard:hover {
@@ -629,14 +630,15 @@
 }
 
 .pia:first-of-type,
-.pib:nth-child(2) {
+.pib:nth-child(2),
+.pic:first-child {
    color: dodgerblue;
 }
 
 .pia:nth-child(2),
 .pic:nth-child(2) {
-   font-size: 32px;
-   color: skyblue;
+   font-size: 33px;
+   color: rgb(0, 207, 207);
 }
 
 .pia:nth-child(3) {
@@ -657,21 +659,21 @@
    color: gold;
 }
 
-.pic:first-child {
+.pic:nth-child(3) {
    font-size: 26px;
    color: violet;
 }
 
-.pic:nth-child(3) {
-   color: rgb(151, 231, 31);
+.pic:nth-child(4) {
+   color: rgb(124, 207, 0);
 }
 
-.pic:nth-child(5) {
+.pic:nth-child(6) {
    font-size: 27px;
    color: green;
 }
 
-.pic:nth-child(6) {
+.pic:nth-child(7) {
    font-size: 27px;
    color: rgb(41, 179, 179);
 }

@@ -44,8 +44,9 @@ function Projects({ theme }) {
                      front-end and back-end technologies listed below.
                   </p>
                   <div>
-                     <SiRedux className={styles.pic} />
+                     <FaCss3Alt className={styles.pic} />
                      <RiReactjsLine className={styles.pic} />
+                     <SiRedux className={styles.pic} />
                      <IoLogoNodejs className={styles.pic} />
                      <SiExpress className={styles.pic} />
                      <SiMongodb className={styles.pic} />
