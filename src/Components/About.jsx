@@ -23,9 +23,9 @@ function About({ theme }) {
                <div className={styles.bgi}></div>
                <div data-aos='zoom-in'>
                   Hi, My name is <span>Md Mostafijur Rahman</span> and I am from <span>Kaliachak, Malda, West Bengal (India)</span>.
-                  I have completed my <span>Bachelor of Pharmacy</span> form <span>Rajiv Gandhi Proudyogiki Vishwavidyalaya,</span> Bhopal (MP).
+                  I have completed my <span>Bachelor of Pharmacy</span> from <span>Rajiv Gandhi Proudyogiki Vishwavidyalaya,</span> Bhopal (MP).
                   Then I joined <span>Masai School</span> (A Military-type coding School), which offers a 30-week full-time course on the <span>Full Stack Web Development</span> program.
-                  At Masai School, I get hands-on experience to learn <span>frontend and backend</span> technologies.
+                  At Masai School, I get hands-on experience in learning <span>frontend and backend</span> technologies.
                </div>
                <TypeAnimation
                   sequence={[
