@@ -34,7 +34,7 @@
    display: flex;
    align-items: center;
    justify-content: end;
-   gap: 3rem;
+   gap: 2.4rem;
    font-size: 17px;
    font-weight: 600;
    padding: 7px;
@@ -997,8 +997,8 @@
 
    .navList {
       font-size: 15px;
-      gap: 1.7rem;
-      width: 60%;
+      gap: 1.4rem;
+      width: 67%;
    }
 
    .modeBtn > button {
