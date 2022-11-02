@@ -1036,7 +1036,8 @@
    }
 
    .typing {
-      font-size: 27px;
+      font-size: 24px;
+      margin-top: -20px;
    }
 
    .education > div:last-child > div {
@@ -1177,7 +1178,7 @@
    }
 
    .typing {
-      font-size: 20px;
+      font-size: 18px;
    }
 
    .education > div:last-child > div {
