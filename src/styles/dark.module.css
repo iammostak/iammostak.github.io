@@ -1178,7 +1178,7 @@
    }
 
    .typing {
-      font-size: 18px;
+      font-size: 19px;
    }
 
    .education > div:last-child > div {
@@ -1288,6 +1288,21 @@
 
    .calendarIcon {
       font-size: 21px;
+   }
+
+   .calendarContainer footer div,
+   .calendarContainer footer span {
+      font-size: 10px;
+   }
+
+   .calendarContainer footer div svg {
+      width: 2vw !important;
+      height: 2vw !important;
+   }
+
+   .calendarContainer footer div svg rect {
+      width: 2vw;
+      height: 2vw;
    }
 
    .contact {

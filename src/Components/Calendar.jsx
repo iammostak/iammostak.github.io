@@ -3,7 +3,7 @@ import dark from "../styles/dark.module.css";
 import GitHubCalendar from "react-github-calendar";
 import { IoCalendar } from "react-icons/io5";
 
-function Calender({ theme }) {
+function Calendar({ theme }) {
    let styles;
    theme ? (styles = light) : (styles = dark);
 
@@ -47,4 +47,4 @@ function Calender({ theme }) {
    );
 }
 
-export default Calender;
+export default Calendar;
