@@ -413,6 +413,14 @@ function Skills({ theme }) {
             <button
                data-aos="zoom-in"
                data-aos-duration="2000"
+               className={styles.tomato}
+            >
+               <SiNpm />
+               Npm
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="2000"
                className={styles.black}
             >
                FrontEnd Development
@@ -435,10 +443,10 @@ function Skills({ theme }) {
             <button
                data-aos="zoom-in"
                data-aos-duration="2000"
-               className={styles.tomato}
+               className={styles.green}
             >
-               <SiNpm />
-               Npm
+               <RiFolderUserFill />
+               Organization
             </button>
             <button
                data-aos="zoom-in"
@@ -449,11 +457,11 @@ function Skills({ theme }) {
             </button>
             <button
                data-aos="zoom-in"
-               data-aos-duration="2000"
-               className={styles.green}
+               data-aos-duration="3000"
+               className={styles.lightblue}
             >
-               <RiFolderUserFill />
-               Organization
+               <SiVisualstudiocode />
+               VS Code
             </button>
             <button
                data-aos="zoom-in"
@@ -462,14 +470,6 @@ function Skills({ theme }) {
             >
                <FaUserCog />
                Tools Handling
-            </button>
-            <button
-               data-aos="zoom-in"
-               data-aos-duration="3000"
-               className={styles.lightblue}
-            >
-               <SiVisualstudiocode />
-               VS Code
             </button>
             <button
                data-aos="zoom-in"
@@ -505,6 +505,14 @@ function Skills({ theme }) {
             </button>
             <button
                data-aos="zoom-in"
+               data-aos-duration="3000"
+               className={styles.lightgreen}
+            >
+               <FaNodeJs />
+               NodeJS
+            </button>
+            <button
+               data-aos="zoom-in"
                data-aos-duration="2000"
                className={styles.black}
             >
@@ -518,14 +526,6 @@ function Skills({ theme }) {
             >
                <FaPython />
                Python
-            </button>
-            <button
-               data-aos="zoom-in"
-               data-aos-duration="3000"
-               className={styles.lightgreen}
-            >
-               <FaNodeJs />
-               NodeJS
             </button>
             <button
                data-aos="zoom-in"
@@ -569,19 +569,19 @@ function Skills({ theme }) {
             </button>
             <button
                data-aos="zoom-in"
-               data-aos-duration="2000"
-               className={styles.purple}
-            >
-               <FaBootstrap />
-               Bootstrap
-            </button>
-            <button
-               data-aos="zoom-in"
                data-aos-duration="1000"
                className={styles.black}
             >
                <SiVercel />
                Vercel
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="2000"
+               className={styles.purple}
+            >
+               <FaBootstrap />
+               Bootstrap
             </button>
             <button
                data-aos="zoom-in"
