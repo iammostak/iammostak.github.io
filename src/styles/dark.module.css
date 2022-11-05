@@ -446,7 +446,7 @@
    gap: 5.1%;
    margin-top: 3%;
    padding: 7% 3%;
-   padding-bottom: 13%;
+   padding-bottom: 18%;
    margin-bottom: 10%;
    background-color: var(--background-d-color);
 }
@@ -515,7 +515,7 @@
 }
 
 .black {
-   background-color: black;
+   background-color: rgb(17, 17, 17);
 }
 
 .tomato {
@@ -1225,7 +1225,7 @@
 
    .skillsContainer {
       grid-template-columns: repeat(3, 1fr);
-      padding-bottom: 64%;
+      padding-bottom: 103%;
    }
 
    .skillsContainer > div {

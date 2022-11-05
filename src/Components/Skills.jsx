@@ -33,19 +33,27 @@ import {
    SiFigma,
    SiHeroku,
    SiJest,
+   SiJsonwebtokens,
    SiMongodb,
    SiNetlify,
+   SiNotion,
    SiNpm,
    SiPostman,
+   SiRailway,
    SiReact,
    SiReactrouter,
+   SiRedis,
    SiRedux,
+   SiTailwindcss,
    SiTypescript,
    SiVercel,
+   SiVisualstudiocode,
    SiVite,
 } from "react-icons/si";
 import { BiGitMerge } from "react-icons/bi";
-import { AiTwotoneThunderbolt } from "react-icons/ai";
+import { AiFillApi, AiTwotoneThunderbolt } from "react-icons/ai";
+import { TbBrandNextjs } from "react-icons/tb";
+import { VscJson } from "react-icons/vsc";
 
 function Skills({ theme }) {
    let styles;
@@ -145,7 +153,15 @@ function Skills({ theme }) {
                   alt="mongoose"
                />
             </div>
-            <div data-aos="zoom-in" data-aos-duration="2000">
+            <div
+               data-aos="zoom-in"
+               data-aos-duration="2000"
+               style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+               }}
+            >
                <img
                   src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/babel.png"
                   alt="babel"
@@ -206,6 +222,69 @@ function Skills({ theme }) {
                   alt="typescript"
                />
             </div>
+            <div data-aos="zoom-in" data-aos-duration="2000">
+               <img
+                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/notion.png"
+                  alt="notion"
+               />
+            </div>
+            <div
+               data-aos="zoom-in"
+               data-aos-duration="3000"
+               style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+               }}
+            >
+               <img
+                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/tailwind.png"
+                  alt="tailwind"
+                  style={{ width: "80%", height: "auto" }}
+               />
+            </div>
+            <div
+               data-aos="zoom-in"
+               data-aos-duration="1000"
+               style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+               }}
+            >
+               <img
+                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/markdown.png"
+                  alt="markdown"
+                  style={{ width: "80%", height: "auto" }}
+               />
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="1000">
+               <img
+                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/redis.png"
+                  alt="redis"
+               />
+            </div>
+            <div
+               data-aos="zoom-in"
+               data-aos-duration="3000"
+               style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+               }}
+            >
+               <img
+                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/nextjs.png"
+                  alt="nextjs"
+                  style={{ width: "80%", height: "auto" }}
+               />
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="2000">
+               <img
+                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/jwt.png"
+                  alt="jwt"
+               />
+            </div>
          </div>
          <div data-aos="slide-up">
             <h1>
@@ -240,7 +319,7 @@ function Skills({ theme }) {
             <button
                data-aos="zoom-in"
                data-aos-duration="2000"
-               className={styles.tomato}
+               className={styles.orange}
             >
                <FaHtml5 />
                HTML
@@ -252,6 +331,14 @@ function Skills({ theme }) {
             >
                <RiUserReceivedFill />
                Adaptability
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="3000"
+               className={styles.lightblue}
+            >
+               <FaCss3Alt />
+               CSS
             </button>
             <button
                data-aos="zoom-in"
@@ -271,9 +358,25 @@ function Skills({ theme }) {
             <button
                data-aos="zoom-in"
                data-aos-duration="1000"
+               className={styles.yellow}
+            >
+               <IoLogoJavascript />
+               JavaScript
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="1000"
                className={styles.green}
             >
-               Decision Making
+               Interpersonal Skills
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="3000"
+               className={styles.teal}
+            >
+               <SiReact />
+               React
             </button>
             <button
                data-aos="zoom-in"
@@ -281,7 +384,15 @@ function Skills({ theme }) {
                className={styles.green}
             >
                <FaUserTie />
-               Interpersonal Skills
+               Decision Making
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="1000"
+               className={styles.purple}
+            >
+               <SiRedux />
+               Redux
             </button>
             <button
                data-aos="zoom-in"
@@ -301,14 +412,6 @@ function Skills({ theme }) {
             </button>
             <button
                data-aos="zoom-in"
-               data-aos-duration="3000"
-               className={styles.lightblue}
-            >
-               <FaCss3Alt />
-               CSS
-            </button>
-            <button
-               data-aos="zoom-in"
                data-aos-duration="2000"
                className={styles.black}
             >
@@ -316,11 +419,11 @@ function Skills({ theme }) {
             </button>
             <button
                data-aos="zoom-in"
-               data-aos-duration="1000"
-               className={styles.yellow}
+               data-aos-duration="2000"
+               className={styles.lightblue}
             >
-               <IoLogoJavascript />
-               JavaScript
+               <SiTypescript />
+               TypeScript
             </button>
             <button
                data-aos="zoom-in"
@@ -346,14 +449,6 @@ function Skills({ theme }) {
             </button>
             <button
                data-aos="zoom-in"
-               data-aos-duration="3000"
-               className={styles.teal}
-            >
-               <SiReact />
-               React
-            </button>
-            <button
-               data-aos="zoom-in"
                data-aos-duration="2000"
                className={styles.green}
             >
@@ -362,19 +457,19 @@ function Skills({ theme }) {
             </button>
             <button
                data-aos="zoom-in"
-               data-aos-duration="1000"
-               className={styles.purple}
-            >
-               <SiRedux />
-               Redux
-            </button>
-            <button
-               data-aos="zoom-in"
                data-aos-duration="3000"
                className={styles.black}
             >
                <FaUserCog />
                Tools Handling
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="3000"
+               className={styles.lightblue}
+            >
+               <SiVisualstudiocode />
+               VS Code
             </button>
             <button
                data-aos="zoom-in"
@@ -391,22 +486,6 @@ function Skills({ theme }) {
             >
                <SiExpress />
                Express
-            </button>
-            <button
-               data-aos="zoom-in"
-               data-aos-duration="3000"
-               className={styles.lightgreen}
-            >
-               <FaNodeJs />
-               NodeJS
-            </button>
-            <button
-               data-aos="zoom-in"
-               data-aos-duration="2000"
-               className={styles.lightblue}
-            >
-               <SiTypescript />
-               TypeScript
             </button>
             <button
                data-aos="zoom-in"
@@ -439,6 +518,22 @@ function Skills({ theme }) {
             >
                <FaPython />
                Python
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="3000"
+               className={styles.lightgreen}
+            >
+               <FaNodeJs />
+               NodeJS
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="2000"
+               className={styles.darkred}
+            >
+               <SiJest />
+               Jest
             </button>
             <button
                data-aos="zoom-in"
@@ -490,19 +585,19 @@ function Skills({ theme }) {
             </button>
             <button
                data-aos="zoom-in"
-               data-aos-duration="2000"
-               className={styles.darkred}
-            >
-               <SiJest />
-               Jest
-            </button>
-            <button
-               data-aos="zoom-in"
                data-aos-duration="3000"
                className={styles.yellow}
             >
                <SiBabel />
                Babel
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="1000"
+               className={styles.black}
+            >
+               <TbBrandNextjs />
+               Next.JS
             </button>
             <button
                data-aos="zoom-in"
@@ -544,6 +639,30 @@ function Skills({ theme }) {
             </button>
             <button
                data-aos="zoom-in"
+               data-aos-duration="1000"
+               className={styles.orange}
+            >
+               <SiFigma />
+               Figma
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="3000"
+               className={styles.teal}
+            >
+               <SiTailwindcss />
+               Tailwind CSS
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="2000"
+               className={styles.tomato}
+            >
+               <SiRedis />
+               Redis
+            </button>
+            <button
+               data-aos="zoom-in"
                data-aos-duration="2000"
                className={styles.lightblue}
             >
@@ -560,19 +679,51 @@ function Skills({ theme }) {
             </button>
             <button
                data-aos="zoom-in"
-               data-aos-duration="1000"
-               className={styles.orange}
+               data-aos-duration="2000"
+               className={styles.lightblue}
             >
-               <SiFigma />
-               Figma
+               <AiTwotoneThunderbolt />
+               Thunder Client
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="3000"
+               className={styles.black}
+            >
+               <SiNotion />
+               Notion
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="1000"
+               className={styles.purple}
+            >
+               <SiRailway />
+               Railway
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="3000"
+               className={styles.black}
+            >
+               <VscJson />
+               JSON
             </button>
             <button
                data-aos="zoom-in"
                data-aos-duration="2000"
                className={styles.lightblue}
             >
-               <AiTwotoneThunderbolt />
-               Thunder Client
+               <AiFillApi />
+               Render
+            </button>
+            <button
+               data-aos="zoom-in"
+               data-aos-duration="3000"
+               className={styles.black}
+            >
+               <SiJsonwebtokens />
+               JSON Wet Tokens
             </button>
          </div>
       </div>
