@@ -224,7 +224,7 @@ function Skills({ theme }) {
             </div>
             <div data-aos="zoom-in" data-aos-duration="2000">
                <img
-                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/notion.png"
+                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/redis.png"
                   alt="notion"
                />
             </div>
@@ -238,7 +238,7 @@ function Skills({ theme }) {
                }}
             >
                <img
-                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/tailwind.png"
+                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/markdown.png"
                   alt="tailwind"
                   style={{ width: "80%", height: "auto" }}
                />
@@ -253,14 +253,14 @@ function Skills({ theme }) {
                }}
             >
                <img
-                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/markdown.png"
+                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/tailwind.png"
                   alt="markdown"
                   style={{ width: "80%", height: "auto" }}
                />
             </div>
             <div data-aos="zoom-in" data-aos-duration="1000">
                <img
-                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/redis.png"
+                  src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/notion.png"
                   alt="redis"
                />
             </div>
