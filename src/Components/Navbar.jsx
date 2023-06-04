@@ -14,11 +14,11 @@ function Navbar({ theme, toggleTheme }) {
    };
 
    return (
-      <nav className={styles.navbar}>
-         <div className={styles.logo}>
+      <nav className={`navbar ${styles.navbar}`}>
+         <div className={`logo ${styles.logo}`}>
             <a href="#">🙏Welcome!</a>
          </div>
-         <div className={styles.navList}>
+         <div className={`navList ${styles.navList}`}>
             <div>
                <a href="#">Home</a>
             </div>
@@ -47,7 +47,7 @@ function Navbar({ theme, toggleTheme }) {
                </a>
             </div>
          </div>
-         <div className={styles.modeBtn}>
+         <div className={`modeBtn ${styles.modeBtn}`}>
             <button onClick={handleClick}>
                {theme ? <RiMoonClearFill /> : <RiSunFill />}
             </button>
